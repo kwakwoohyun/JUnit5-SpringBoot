@@ -9,7 +9,7 @@ class BasicAnnotation {
 
     @Test
     void create() {
-        Study study = new Study();
+        Study study = new Study(1);
         assertNotNull(study);
         System.out.println("create1");
     }
@@ -17,7 +17,7 @@ class BasicAnnotation {
     @Test
     @Disabled
     void create2() {
-        Study study2 = new Study();
+        Study study2 = new Study(1);
         assertNotNull(study2);
         System.out.println("create2");
     }
