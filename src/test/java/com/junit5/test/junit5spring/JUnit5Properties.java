@@ -3,7 +3,6 @@ package com.junit5.test.junit5spring;
 import org.junit.jupiter.api.*;
 
 
-@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 class JUnit5Properties {
 
     int number = 1;
